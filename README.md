@@ -12,3 +12,7 @@ Raw boundary inputs are stored as GeoJSON files:
 - U.S. national boundary: `data/raw/boundaries/us_boundary.geojson`
 
 The script `src/build_boundary.py` finds the intersection of these boundaries and then saves the study region to the `data/processed` directory. All datasets will be clipped to this boundary.
+
+## Data Sources
+
+The Y2Y boundary was sourced from Data Basin and converted to GeoJSON.
